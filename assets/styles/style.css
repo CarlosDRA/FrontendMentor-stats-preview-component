@@ -24,6 +24,18 @@ body{
     display: none;
 }
 
+.stats__header{
+    position: relative;
+}
+
+.stats__header::before{
+    content: '';
+    background: rgba(93 50 119 / .9);
+    position: absolute;
+    inset: 0;
+    mix-blend-mode: hard-light;
+}
+
 .info__title{
     margin: 40px auto 10px auto;
     width: 230px;
@@ -72,7 +84,7 @@ body{
     
     .stats{
         width: 80vw;
-        max-height: 446px;
+        height: 446px;
         display: grid;
         grid-template-columns: 50% 50%;
         margin: 20vh auto;
