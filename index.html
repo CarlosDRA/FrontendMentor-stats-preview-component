@@ -17,13 +17,14 @@
     <title>Stats preview component</title>
 </head>
 <body>
-    <article class="stats">
-        <section class="stats__header">
+    <section class="stats" role="region" aria-label="stats">
+        <h1 class="hidden">hidden</h1>
+        <div class="stats__header">
             <img src="./assets/images/image-header-mobile.jpg" alt="Corporate meeting" class="stats__img stats__img-mobile">
             <img src="./assets/images/image-header-desktop.jpg" alt="Corporate meeting" class="stats__img stats__img-desktop">
-        </section>
+        </div>
     
-        <articles class="stats__info">
+        <section class="stats__info">
             <h2 class="info__title">Get <span class="text__highlight">insights</span> that help your business grow.</h2>
             <p class="info__text info__text--main">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
 
@@ -42,9 +43,9 @@
                 </div>
             </section>
 
-        </articles>
+        </section>
 
-    </article>
+    </section>
     
 </body>
 </html>

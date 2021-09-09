@@ -8,12 +8,17 @@ body{
     color: hsl(0 0% 100%)
 }
 
+.hidden{
+    display: none;
+}
+
 .stats{
     width: 330px;
     margin: 80px auto 0 auto;
     border-radius: 10px;
     overflow: hidden;
     background-color: hsl(244 38% 16%);
+    position: relative;
 }
 
 .stats__img-mobile{
@@ -151,7 +156,4 @@ body{
     .numbers__text{
         text-align: left;
     }
-
-
-
 }
